@@ -1,0 +1,17 @@
+#post{
+    border: 1px solid black;
+    width:600px;
+    height: 600px;
+	opacity:0;
+	transition: 2s; 
+	animation: show 3s 1;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s; 
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+}
+@keyframes show{
+    0%{ opacity:0; }
+    100% { opacity:1; }
+   }
